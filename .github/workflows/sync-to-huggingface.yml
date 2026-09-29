@@ -18,6 +18,6 @@ jobs:
         uses: huggingface/hub-sync@v0.3.0
         with:
           github_repo_id: ${{ github.repository }}
-          huggingface_repo_id: YOUR_HF_USERNAME/Extended-RWA-SAMK
+          huggingface_repo_id: Aku2026/Extended-RWA-SAMK
           hf_token: ${{ secrets.HF_TOKEN }}
           space_sdk: docker
